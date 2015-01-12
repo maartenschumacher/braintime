@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LevelViewController.h"
 
 @interface ResultViewController : UIViewController
 
 @property double difference;
+@property NSInteger level;
+@property LevelViewController *levelVC;
 
 @end

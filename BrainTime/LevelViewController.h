@@ -11,5 +11,6 @@
 @interface LevelViewController : UIViewController
 
 @property double targetTime;
+@property NSInteger level;
 
 @end

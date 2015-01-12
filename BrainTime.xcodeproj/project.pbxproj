@@ -10,6 +10,7 @@
 		2E23FAC31A55C6920040C4DD /* LevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E23FAC21A55C6920040C4DD /* LevelSelectViewController.m */; };
 		2E23FAC61A55C6AC0040C4DD /* LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E23FAC51A55C6AC0040C4DD /* LevelViewController.m */; };
 		2E23FAC91A55C6B70040C4DD /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E23FAC81A55C6B70040C4DD /* ResultViewController.m */; };
+		2E75F11D1A5FE8C700A44C37 /* Scores.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E75F11C1A5FE8C700A44C37 /* Scores.m */; };
 		2EDA5E921A5452EB00410C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA5E911A5452EB00410C5F /* main.m */; };
 		2EDA5E951A5452EB00410C5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA5E941A5452EB00410C5F /* AppDelegate.m */; };
 		2EDA5E981A5452EB00410C5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA5E971A5452EB00410C5F /* ViewController.m */; };
@@ -36,6 +37,8 @@
 		2E23FAC51A55C6AC0040C4DD /* LevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelViewController.m; sourceTree = "<group>"; };
 		2E23FAC71A55C6B70040C4DD /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
 		2E23FAC81A55C6B70040C4DD /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		2E75F11B1A5FE8C700A44C37 /* Scores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scores.h; sourceTree = "<group>"; };
+		2E75F11C1A5FE8C700A44C37 /* Scores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scores.m; sourceTree = "<group>"; };
 		2EDA5E8C1A5452EB00410C5F /* BrainTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDA5E901A5452EB00410C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EDA5E911A5452EB00410C5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				2E23FAC71A55C6B70040C4DD /* ResultViewController.h */,
 				2E23FAC81A55C6B70040C4DD /* ResultViewController.m */,
 				2EDA5E991A5452EB00410C5F /* Main.storyboard */,
+				2E75F11B1A5FE8C700A44C37 /* Scores.h */,
+				2E75F11C1A5FE8C700A44C37 /* Scores.m */,
 				2EDA5E9C1A5452EB00410C5F /* Images.xcassets */,
 				2EDA5E9E1A5452EB00410C5F /* LaunchScreen.xib */,
 				2EDA5E8F1A5452EB00410C5F /* Supporting Files */,
@@ -236,6 +241,7 @@
 			files = (
 				2EDA5E981A5452EB00410C5F /* ViewController.m in Sources */,
 				2E23FAC61A55C6AC0040C4DD /* LevelViewController.m in Sources */,
+				2E75F11D1A5FE8C700A44C37 /* Scores.m in Sources */,
 				2E23FAC31A55C6920040C4DD /* LevelSelectViewController.m in Sources */,
 				2EDA5E951A5452EB00410C5F /* AppDelegate.m in Sources */,
 				2EDA5E921A5452EB00410C5F /* main.m in Sources */,
