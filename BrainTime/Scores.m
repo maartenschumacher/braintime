@@ -63,7 +63,7 @@
     }
     else {
         double oldscore = [self.highscores[level]doubleValue];
-        if (fabs(score) < oldscore) {
+        if (fabs(score) < fabs(oldscore)) {
             [self.highscores replaceObjectAtIndex:level withObject:@(score)];
             return [NSString stringWithFormat:@"%f",score];
         }

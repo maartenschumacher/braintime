@@ -423,8 +423,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="good job!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUy-4P-srx">
-                                <rect key="frame" x="264" y="394" width="73" height="106"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="good job!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUy-4P-srx">
+                                <rect key="frame" x="16" y="394" width="568" height="106"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -475,8 +475,10 @@
                             <constraint firstItem="Pvp-PE-hXg" firstAttribute="top" secondItem="sbr-cD-vCT" secondAttribute="bottom" constant="20" id="ZAP-2R-ldv"/>
                             <constraint firstItem="vKb-lc-PV5" firstAttribute="trailing" secondItem="iLx-TK-aOc" secondAttribute="trailingMargin" id="ZdF-rO-kdQ"/>
                             <constraint firstItem="U37-qI-c0U" firstAttribute="height" secondItem="Z7c-Ab-xna" secondAttribute="height" id="gxg-vD-SzH"/>
+                            <constraint firstItem="xUy-4P-srx" firstAttribute="leading" secondItem="iLx-TK-aOc" secondAttribute="leadingMargin" id="lqc-3i-b9p"/>
                             <constraint firstItem="U37-qI-c0U" firstAttribute="top" secondItem="NeJ-W5-qv9" secondAttribute="bottom" constant="8" id="oSS-4L-rve"/>
                             <constraint firstItem="Z7c-Ab-xna" firstAttribute="top" secondItem="U37-qI-c0U" secondAttribute="bottom" constant="8" id="qZd-FC-bHZ"/>
+                            <constraint firstItem="xUy-4P-srx" firstAttribute="trailing" secondItem="iLx-TK-aOc" secondAttribute="trailingMargin" id="r4N-qo-vxI"/>
                             <constraint firstAttribute="centerX" secondItem="WLV-F7-c3g" secondAttribute="centerX" id="sOt-W6-aO0"/>
                             <constraint firstAttribute="centerX" secondItem="vuU-fA-4br" secondAttribute="centerX" id="sVQ-0p-QbI"/>
                             <constraint firstItem="U37-qI-c0U" firstAttribute="height" secondItem="xUy-4P-srx" secondAttribute="height" id="wj4-JY-Hq9"/>
